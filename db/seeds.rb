@@ -5,10 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Restaurant.destroy_all
+
 restaurants = Restaurant.create([
   { name: 'Bibimbap', address: 'Rennes', category: 'japanese' },
   { name: 'Pizza', address: 'Rennes', category: 'italian' },
   { name: 'Chez Paul', address: 'Rennes', category: 'french' },
-  { name: 'Roadsie', address: 'Rennes', category: 'french' },
-  { name: 'Ramen', address: 'Nante', category: 'japanese' }
+  { name: 'Roadside', address: 'Rennes', category: 'french' },
+  { name: 'Ramen', address: 'Nantes', category: 'japanese' }
 ])
